@@ -1,0 +1,6 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  SampleBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: sample-iac-bucket-12345
